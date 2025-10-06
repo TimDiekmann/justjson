@@ -13,7 +13,7 @@
 )]
 #![deny(unsafe_code)]
 #![no_std]
-#![cfg_attr(any(docsrs, feature = "nightly"), feature(doc_auto_cfg))]
+#![cfg_attr(any(docsrs, feature = "nightly"), feature(doc_cfg))]
 
 #[cfg(any(feature = "std", test))]
 extern crate std;
